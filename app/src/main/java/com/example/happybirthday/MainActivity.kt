@@ -76,7 +76,7 @@ fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) 
             painter = image,
             contentDescription = null,
             contentScale = FillBounds,
-            modifier = Modifier.size(900.dp)
+            modifier = Modifier.size(950.dp)//it was 900dp did not fill the screen, so increased to 950 dp
         )
         GreetingText(
             message = message,
